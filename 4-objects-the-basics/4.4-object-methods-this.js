@@ -10,7 +10,7 @@ function makeUser() {
 
 let user = makeUser();
 
-alert(user.ref.name); // Каким будет результат? - undefined
+console.log(user.ref.name); // Каким будет результат? - undefined
 
 // Создайте калькулятор
 
@@ -30,8 +30,8 @@ let calculator = {
 };
 
 calculator.read();
-alert(calculator.sum());
-alert(calculator.mul());
+console.log(calculator.sum());
+console.log(calculator.mul());
 
 //Цепь вызовов
 
@@ -47,7 +47,7 @@ let ladder = {
   },
   showStep: function () {
     // показывает текущую ступеньку
-    alert(this.step);
+    console.log(this.step);
     return this;
   },
 };

@@ -23,9 +23,9 @@ function isEmpty(obj) {
   return true;
 }
 let schedule = {};
-alert(isEmpty(schedule)); // true
+console.log(isEmpty(schedule)); // true
 schedule["8:30"] = "get up";
-alert(isEmpty(schedule)); // false
+console.log(isEmpty(schedule)); // false
 
 // Объекты-константы?
 

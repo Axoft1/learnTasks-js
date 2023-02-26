@@ -19,13 +19,13 @@ let values = [
   ":-O",
 ];
 
-alert(unique(values)); // Hare,Krishna,:-O
+console.log(unique(values)); // Hare,Krishna,:-O
 
 // Отфильтруйте анаграммы
 
 let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
-alert( aclean(arr) ); // "nap,teachers,ear" или "PAN,cheaters,era"
+console.log(aclean(arr)); // "nap,teachers,ear" или "PAN,cheaters,era"
 
 function aclean(arr) {
   let map = new Map();

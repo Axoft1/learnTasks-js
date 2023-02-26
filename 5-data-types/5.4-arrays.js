@@ -9,14 +9,14 @@ let shoppingCart = fruits;
 shoppingCart.push("Банан");
 
 // что в fruits?
-alert( fruits.length ); // 4
+console.log(fruits.length); // 4
 
 // Операции с массивами
 
 let styles = ["Джаз", "Блюз"];
 styles.push("Рок-н-ролл");
 styles[Math.floor((styles.length - 1) / 2)] = "Классика";
-alert(styles.shift());
+console.log(styles.shift());
 styles.unshift("Рэп", "Регги");
 
 // Вызов в контексте массива
@@ -24,7 +24,7 @@ styles.unshift("Рэп", "Регги");
 let arr = ["a", "b"];
 
 arr.push(function() {
-  alert( this );
+  console.log(this);
 });
 
 arr[2](); // function(){alert( this );}
@@ -44,7 +44,7 @@ function sumInput() {
   }
   return sum;
 }
-alert(sumInput());
+console.log(sumInput());
 
 //Подмассив наибольшей суммы
 

@@ -18,4 +18,4 @@ let x = 1 + (a *= 2);
 let q = prompt("Первое число?", 1);
 let w = prompt("Второе число?", 2);
 
-alert(+q + +w); // 3
+console.log(+q + +w); // 3

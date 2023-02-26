@@ -4,4 +4,4 @@
 
 let str = "Привет";
 str.test = 5;
-alert(str.test);// Ошибка (strict mode)
+console.log(str.test);// Ошибка (strict mode)

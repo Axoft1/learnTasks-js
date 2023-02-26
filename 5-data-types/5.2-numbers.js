@@ -3,10 +3,10 @@
 //Сумма пользовательских чисел
 let first = +prompt('Введите первое число', 0)
 let second = +prompt('Введите первое число', 0)
-alert(first + second)
+console.log(first + second);
 
 // Почему 6.35.toFixed(1) == 6.3?
-alert((6.35 * 10).toFixed(20));
+console.log((6.35 * 10).toFixed(20));
 
 // Ввод числового значения
 function readNumber() {
@@ -17,7 +17,7 @@ function readNumber() {
   if (num === null || num === "") return null;
   return +num;
 }
-alert(readNumber());
+console.log(readNumber());
 
 //Бесконечный цикл по ошибке
 
@@ -28,17 +28,17 @@ while (i != 10) {
 //Это происходит из-за потери точности, при прибавлении таких дробей как 0.2.
 
 //Случайное число от min до max
-alert( random(1, 5) ); // 1.2345623452
-alert( random(1, 5) ); // 3.7894332423
-alert( random(1, 5) ); // 4.3435234525
+console.log(random(1, 5)); // 1.2345623452
+console.log(random(1, 5)); // 3.7894332423
+console.log(random(1, 5)); // 4.3435234525
 function random(min, max) {
   return min + Math.random() * (max - min);
 }
 
 // Случайное целое число от min до max
-alert( randomInteger(1, 5) ); // 1
-alert( randomInteger(1, 5) ); // 3
-alert( randomInteger(1, 5) ); // 5
+console.log(randomInteger(1, 5)); // 1
+console.log( randomInteger(1, 5) ); // 3
+console.log(randomInteger(1, 5)); // 5
 
 function randomInteger(min, max) {
   let rand = min - 0.5 + Math.random() * (max - min + 1);

@@ -25,4 +25,4 @@ let user = {
 function count(obj) {
   return Object.keys(obj).length;
 }
-alert( count(user) ); // 2
+console.log(count(user)); // 2

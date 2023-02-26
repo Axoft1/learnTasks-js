@@ -8,9 +8,9 @@ let user = { name: "John", years: 30 };
 // ... = user
 let { name, years: age, isAdmin = false } = user;
 
-alert( name ); // John
-alert( age ); // 30
-alert( isAdmin ); // false
+console.log(name); // John
+console.log(age); // 30
+console.log(isAdmin); // false
 
 // Максимальная зарплата
 

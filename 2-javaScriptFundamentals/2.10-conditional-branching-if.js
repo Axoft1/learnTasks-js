@@ -3,16 +3,16 @@
 // if (строка с нулём)
 
 if ("0") {
-  alert("Привет");
+  console.log("Привет");
 }// Выведется ли alert? да, т.к. "0" выдаст true
 
 // Название JavaScript
 
 let nameJs = prompt('Какое "официальное" название JavaScript?', "");
 if (nameJs == "ECMAScript") {
-  alert("Верно!");
+  console.log("Верно!");
 } else {
-  alert("Не знаете? ECMAScript!");
+  console.log("Не знаете? ECMAScript!");
 }
 
 // Покажите знак числа

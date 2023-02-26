@@ -9,7 +9,7 @@ function B() { return obj; }
 let a = new A();
 let b = new B();
 
-alert( a == b ); // true
+console.log(a == b); // true
 
 // Создайте калькулятор при помощи конструктора, new Calculator
 
@@ -30,8 +30,8 @@ function Calculator() {
 let calculator = new Calculator();
 calculator.read();
 
-alert("Sum=" + calculator.sum());
-alert("Mul=" + calculator.mul());
+console.log("Sum=" + calculator.sum());
+console.log("Mul=" + calculator.mul());
 
 //Создайте new Accumulator
 
@@ -47,4 +47,4 @@ let accumulator = new Accumulator(1); // начальное значение 1
 accumulator.read(); // прибавляет введённое пользователем значение к текущему значению
 accumulator.read(); // прибавляет введённое пользователем значение к текущему значению
 
-alert(accumulator.value); // выведет сумму этих значений
+console.log(accumulator.value); // выведет сумму этих значений
